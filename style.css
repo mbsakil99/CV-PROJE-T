@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    background-color:  rgb(118 167 167);
+    font-family: 'STIX Two Text', serif;
+} 
+
+
+:root{
+    --bg-color: rgb(34, 234, 248);
+    --font-color: blue;
+    /* color:var(--bg-color, green) */
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:black;
+}
+
+.container{
+    background: var(--bg-color);
+    width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.profile-image{
+    width:130px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: right;
+    margin: 0px 10px 0px 0px;
+} 
+
+.my-name{
+    margin: 30px 10px 0px 0px;
+    float: left;  
+    box-sizing: border-box;
+} 
+
+
+
+.header-contact {
+    float: left;
+    text-decoration: none;
+    font-size: 10px;   
+    padding: 2px; 
+    margin: 2px 0px 0px 0px;   
+}
+
+.header-contact a{
+    text-decoration: none;
+    font-size: 10px;   
+    color: blue;  
+  
+}
+
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: black
+}
+
+
+.top-hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 5px auto;
+    border-bottom: none;
+    box-sizing: border-box;
+
+}
+
+.clear-div{
+    clear: both;
+}
+
+/* Carrier Obj start */
+
+
+.left-div{
+    width: 30%;
+    float: left;  
+}
+
+
+.right-div{
+    width: 70%;
+    float: right; 
+    color: var(--font-color);   
+    }
+
+   
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 10px auto;
+}
+/* Carrier Obj end */
+
+/* personal information start */
+
+/* .table-width{
+    width:30% 70%} */
+
+/* personal information end */
+
+
+
+/* Personal skills start */
+.p-skills{
+    overflow: hidden;
+    padding: 0px 0px 0px 25px;
+}
+
+/* Personal skills end */
+
+.year{
+    width: 30%;
+   }
+
+.particulars {
+    text-decoration: bold;
+    font-size: 30px;
+    font-size: 20px;
+}
